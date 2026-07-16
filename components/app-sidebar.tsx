@@ -72,6 +72,16 @@ export function AppSidebar() {
             </SidebarMenuButton>
           </SidebarMenuItem>
 
+          <SidebarGroupContent className="px-2 mt-8">
+            <textarea
+              className="w-full h-40 p-3 text-sm bg-sky-50 border border-sky-200 rounded-xl shadow-sm focus:outline-none focus:ring-2 focus:ring-sky-300 transition-all resize-none"
+              defaultValue={`[開発ロードマップ]
+簿記3級: ✅ 公開中 Ver2開発開始
+簿記2級: 🛠 開発予定（７月末リリース予定）
+簿記1級: 🚀 8月末リリースに向けて準備中`}
+              rows={8}
+            />
+          </SidebarGroupContent>
           <SidebarGroupContent>
             <SidebarMenu></SidebarMenu>
           </SidebarGroupContent>
