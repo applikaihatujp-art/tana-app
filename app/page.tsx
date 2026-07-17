@@ -70,6 +70,7 @@ export default function Home() {
               <a
                 href="https://rine-apps.com"
                 target="_blank"
+                rel="noopener noreferrer"
                 className="px-5 py-2 w-fit bg-white border border-stone-200 rounded-md text-xs font-medium text-stone-600 shadow-sm hover:bg-stone-50 hover:border-stone-300 transition-all"
               >
                 開く
@@ -113,6 +114,7 @@ export default function Home() {
               <a
                 href="https://rine-apps.com"
                 target="_blank"
+                rel="noopener noreferrer"
                 className="px-5 py-2 w-fit bg-white border border-stone-200 rounded-md text-xs font-medium text-stone-600 shadow-sm hover:bg-stone-50 hover:border-stone-300 transition-all"
               >
                 開く
